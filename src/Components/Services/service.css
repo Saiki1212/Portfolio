@@ -1,0 +1,39 @@
+.ser{
+    display: flex;
+    height: 90vh;
+}
+.ser-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100rem;
+}
+.ser-left>:nth-child(1) {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.ser-left>:nth-child(2) {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--orange);
+}
+.ser-left>:nth-child(3) {
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 20px;
+}
+.ser-left>:nth-child(4) {
+    width: 10rem;
+}
+
+.download {
+    width: 10rem;
+}
+
+.ser-right {
+    display: flex;
+    gap: 1rem;
+}
+.ser-2, .ser-4 {
+    top: 8rem;
+}

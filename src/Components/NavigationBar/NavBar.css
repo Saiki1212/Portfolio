@@ -1,0 +1,48 @@
+.nav-wrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: cadetblue; */
+}
+
+.nav-left {
+    /* background-color: rgb(223, 229, 230); */
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-name {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.nav-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.nav-list {
+    flex: 10;
+    margin-left: 200px;
+}
+
+.nav-list>ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: -4rem;
+}
+
+.nav-list > ul > li:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.nav-button {
+    flex: 2;
+    /* margin-right: 200px; */
+}
